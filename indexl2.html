@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,14 +8,25 @@
     <style>
       
       .hero-img {
-        width: 400px;
-        height: 300px;
+        width: 460px;
+        height: 400px;
       }
 
       .dots-1{
         width:350px;
       }
-     
+     .tap-1{
+      width: 400px;
+      height: 250px;
+     }
+     .tap-2{
+      width: 450px;
+      height: 360px;
+     }
+     .tap-3{
+      width: 450px;
+      height: 330px;
+     }
     </style>
   </head>
   <body>
@@ -24,17 +35,17 @@
           <img src="images/logo-bookmark.svg" alt="" class="" />
           <div class="w-32 sm:w-72 md:w-72 lg:w-auto">
             <a
-              href="#"
+              href="#features"
               class="bb-61 font-sans-serif m-2 text-gray-500 hover:text-red-500"
               >FEATURES</a
             >
             <a
-              href="#"
+              href="#download"
               class="bb-61 font-sans-serif m-2 text-gray-500 hover:text-red-500"
               >DOWNLOAD</a
             >
             <a
-              href="#"
+              href="#FQA"
               class="bb-61 font-sans-serif m-2 text-gray-500 hover:text-red-500"
               >FAQ</a
             >
@@ -51,7 +62,7 @@
           <span class="">
             <p class="text-6xl font-bold mr-20">A Simple <br>Bookmark<br>Manager</p>
             <p
-              class="font-serif mt-5 text-sans-serif text-gray-500 text-xl mb-6"
+              class="font-serif mt-5 text-sans-serif text-gray-500 text-xl mb-20"
             >
               A clean and simple interface to organize <br />
               your favourite websites. Open a new<br />
@@ -74,13 +85,13 @@
 
           <div>
             <span
-              class="relative bg-blue-600 rounded-l-full h-60 w-96 pl-20 mt-36 flex item-end"
+              class="relative bg-blue-600 rounded-l-full h-72 w-[400px] pl-20 mt-36 flex item-end"
               >&nbsp</span
             >
             <img
               src="images/illustration-hero.svg"
               alt=""
-              class="hero-img absolute right-56 top-60"
+              class="hero-img absolute right-36 top-52"
             />
           </div>
         </div>
@@ -88,38 +99,80 @@
       </section>
 
       <section class="ml-0">
-        <span class="mb-10 mt-20 flex text-4xl font-bold justify-center">Features</span>
+        <span class="mb-10 mt-20 flex text-4xl font-bold justify-center " id="features">Features</span>
 
       <pre class="flex justify-center text-gray-500 font-normal">
         Our aim is to make it quick and easy for you to access your
            favourite websites. Your bookmarks sync between your
                 devices so you can access them on the go.
-      </pre>
-      <div>
-        <pre>
+     </pre>
+      <div></div>
+        <span class=" flex justify-center mx-56">
+          <div  class="border-b border-gray-300  inline p-6 active:border-b-4 active:border-red-500 hover:text-red-500 cursor-pointer">
+            Simple Bookmarking
+          </div>
+          <div  class="border-b border-gray-300 inline p-6 active:border-b-4 active:border-red-500 hover:text-red-500 cursor-pointer">
+            Speedy Searching
+          </div>   
+          <div  class="border-b border-gray-300 inline p-6  active:border-b-4 active:border-red-500 hover:text-red-500 cursor-pointer">
+            Easy Sharing
+          </div>
+        </span>
 
-          ----
-          --
-          --
-          --
-          ----------
 
-
-          ----
-          ----------
-          -----------
-          -----------
-
-          
-          
-          --
-        </pre>
+         <div class="flex justify-between">  
+          <div>
+            <div class="border-2 border-blue-600 rounded-r-full h-72 w-[400px] bg-blue-600 mt-44 relative">&nbsp</div>
+            <img src="images/illustration-features-tab-1.svg" alt=""
+            class="tap-1 absolute left-36 top-[1050px]"/>
+          </div>
+          <div class="px-44">
+            <h3 class="text-3xl font-bold pt-20 pb-10 ">Bookmark in one click</h3>
+            <p class=" text-gray-500 text-lg">
+              Organize your bookmarks however you like. Our simple drag- <br>and-drop interface gives you complete control over how you<br> manage your favourite sites.
+            </p>
+            <a href="#" class="border-2 border-blue-800 bg-blue-800 text-white font-bold p-2 rounded inline-block mt-16 hover:bg-white hover:text-blue-800">More Info</a>
+          </div>
+        </div> 
+<!-- alternative tap 2 -->
+        <!-- <div class="flex justify-between">  
+          <div>
+            <div class="border-2 border-blue-600 rounded-r-full h-72 w-[400px] bg-blue-600 mt-44 relative">&nbsp</div>
+            <img src="images/illustration-features-tab-2.svg" alt=""
+            class="tap-2 absolute left-36 top-[1050px]"/>
+          </div>
+          <div class="px-44">
+            <h3 class="text-3xl font-bold pt-20 pb-10 ">
+              Intelligent search</h3>
+            <p class=" text-gray-500 text-lg">
+              Our powerful search feature will help you find saved sites in <br>no time at all. No need to trawl through all of your<br> bookmarks.</p>
+            <a href="#" class="border-2 border-blue-800 bg-blue-800 text-white font-bold p-2 rounded inline-block mt-16 hover:bg-white hover:text-blue-800">More Info</a>
+          </div>
+        </div> -->
+        
+        <!--alternative tap 3  -->
+        <!-- <div class="flex justify-between">  
+          <div>
+            <div class="border-2 border-blue-600 rounded-r-full h-72 w-[400px] bg-blue-600 mt-44 relative">&nbsp</div>
+            <img src="images/illustration-features-tab-3.svg" alt=""
+            class="tap-3 absolute left-36 top-[1050px]"/>
+          </div>
+          <div class="px-44">
+            <h3 class="text-3xl font-bold pt-20 pb-10 ">
+              Share your bookmarks</h3>
+            <p class=" text-gray-500 text-lg">
+              Easily share your bookmarks and collections with others.<br> Create a shareable a link that you can send at the click of a<br>button. </p>    
+             <a href="#" class="border-2 border-blue-800 bg-blue-800 text-white font-bold p-2 rounded inline-block mt-16 hover:bg-white hover:text-blue-800">More Info</a>
+          </div>
+        </div> -->
+        
+        
       </section>
 
       <section class="">
-        <h2 class="font-bold text-4xl flex justify-center mb-7 ">Download the extension</h2>
+        <h2 class="font-bold text-4xl flex justify-center mb-7 mt-12"id="download">Download the extension</h2>
 
-        <div class="flex justify-center text-gray-500 mb-7">
+        <div class="flex justify-center text-gray-500 mb-24">
 
           <pre> We've got more browsers in the pipeline. Please do let us know if
          you've got a favourite you'd like us to prioritize.</pre>
@@ -152,13 +205,14 @@
             </div>
             
           </div>
-          <h2 class="font-bold text-4xl flex justify-center my-7">Frequently Asked Questions</h2>
+          <h2 class="font-bold text-4xl flex justify-center my-7 mt-20"id="FQA">Frequently Asked Questions</h2>
           <div>
             <pre class="flex justify-center text-gray-500 mb-7">  Here are some of our FAQs. If you have any other questions 
       you'd like answered please feel free to email us.
             </pre>
           </div>
           <pre>
+            
 
             ----
             --
@@ -196,28 +250,33 @@
       
       </section>
 
-    <footer class=" flex items-center justify-between pl-32  h-48 w-full bg-[rgb(0,0,0)]">
-      <img src="images/logo-bookmark-footer.svg" alt="" class="ml-20"/>
+    <footer class=" flex items-center justify-between pl-32  h-48 w-full bg-[rgb(1,1,34)]">
+      <div class="flex flex-cols gap-20">
 
-  
-      <div><a
-        href="#"
-        class="bb-61 font-sans-serif m-2 text-gray-500 hover:text-red-500"
-        >FEATURES</a
-      >
-      <a
-        href="#"
-        class="bb-61 font-sans-serif m-2 text-gray-500 hover:text-red-500"
-        >DOWNLOAD</a
-      >
-      <a
-        href="#"
-        class="bb-61 font-sans-serif m-2 text-gray-500 hover:text-red-500"
-        >FAQ</a>
+        <img src="images/logo-bookmark-footer.svg" alt="" class="ml-20"/>
+        
+        
+        <div><a
+          href="#features"
+          class="bb-61 font-sans-serif m-2 text-gray-500 hover:text-red-500"
+          >FEATURES</a
+          >
+          <a
+          href="#download"
+          class="bb-61 font-sans-serif m-2 text-gray-500 hover:text-red-500"
+          >DOWNLOAD</a
+          >
+          <a
+          href="#FQA"
+          class="bb-61 font-sans-serif m-2 text-gray-500 hover:text-red-500"
+          >FAQ</a>
+        </div>
       </div>
-    
-        <img src="images/icon-facebook.svg"/>
-        <img src="images/icon-twitter.svg"/>
+        <div class="flex flex-cols gap-10 hover:fill-red-500">
+
+          <img src="images/icon-facebook.svg"/>
+          <img src="images/icon-twitter.svg" class="mr-24"/>
+        </div>
       </div>
     </footer>
   </body>
